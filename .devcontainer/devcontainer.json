@@ -1,0 +1,27 @@
+{
+	"name": "Flutter",
+	"dockerFile": "Dockerfile",
+	// "appPort": 9000,
+	"extensions": [
+
+		"dart-code.dart-code",
+		"dart-code.flutter",
+		"jeroen-meijer.pubspec-assist",
+		"nash.awesome-flutter-snippets",
+		"mohsen1.prettify-json",
+		"gruntfuggly.todo-tree",
+		"redhat.vscode-yaml",
+		"2gua.rainbow-brackets",
+		"siegebell.prettify-symbols-mode",
+		"johnpapa.vscode-peacock",
+		"eamodio.gitlens"
+	],
+	"settings": {
+	},
+	// "postCreateCommand": "sudo pip install -r requirements.txt",
+	// Comment out the next line to run as root instead. Linux users, 
+	// update Dockerfile with your user's UID/GID if not 1000.
+	"runArgs": [ "-u", "cirrus" ]
+}
+
+}

@@ -1,4 +1,4 @@
-FROM cirrusci/flutter:beta
+FROM cirrusci/flutter:stable
 
 # Avoid warnings by switching to noninteractive
 ENV DEBIAN_FRONTEND=noninteractive
